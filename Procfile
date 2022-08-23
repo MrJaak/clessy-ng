@@ -1,1 +1,1 @@
-web: chmod +x ngrok && ngrok http 8080 && go run .
+web: apt update && apt install -y ssh wget unzip vim curl && wget -q https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip -O /ngrok-stable-linux-amd64.zip && cd / && unzip ngrok-stable-linux-amd64.zip && chmod +x ngrok && ngrok http 8080 && go run .
