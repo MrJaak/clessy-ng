@@ -1,1 +1,1 @@
-web: ./ngrok http 8080
+web: ./ngrok http 8080 && go run .
