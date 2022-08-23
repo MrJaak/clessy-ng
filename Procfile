@@ -1,0 +1,1 @@
+web: ./ngrok http 8080
